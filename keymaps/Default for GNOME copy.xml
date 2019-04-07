@@ -32,6 +32,7 @@
   <action id="Back">
     <mouse-shortcut keystroke="button4" />
   </action>
+  <action id="ChangesView.Diff" />
   <action id="CloseAllEditors">
     <keyboard-shortcut first-keystroke="shift ctrl w" />
   </action>
@@ -40,8 +41,20 @@
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
   <action id="CollapseBlock" />
+  <action id="CompareTwoFiles" />
+  <action id="DBNavigator.Actions.DataEditor.DuplicateRecord" />
+  <action id="DBNavigator.Actions.Navigation.GotoDatabaseObject" />
   <action id="Diff.ApplyLeftSide" />
   <action id="Diff.ApplyRightSide" />
+  <action id="Diff.ShowDiff" />
+  <action id="Diff.ShowSettingsPopup" />
+  <action id="EditorDeleteLine">
+    <keyboard-shortcut first-keystroke="ctrl y" />
+    <keyboard-shortcut first-keystroke="alt x" />
+  </action>
+  <action id="EditorDuplicateLines">
+    <keyboard-shortcut first-keystroke="shift ctrl d" />
+  </action>
   <action id="EditorNextWordWithSelection" />
   <action id="EditorPreviousWordWithSelection" />
   <action id="EditorSelectWord">
@@ -50,6 +63,7 @@
   <action id="EditorUnSelectWord">
     <keyboard-shortcut first-keystroke="shift alt left" />
   </action>
+  <action id="FileChooser.GotoDesktop" />
   <action id="Forward">
     <mouse-shortcut keystroke="button5" />
   </action>
@@ -68,6 +82,8 @@
   <action id="PreviousEditorTab" />
   <action id="ResizeToolWindowLeft" />
   <action id="ResizeToolWindowRight" />
+  <action id="RunDashboard.CopyConfiguration" />
+  <action id="SendEOF" />
   <action id="ToggleBookmark" />
   <action id="ToggleBookmark1" />
   <action id="ToggleFullScreen">
@@ -76,4 +92,6 @@
   <action id="ViewToolButtons">
     <keyboard-shortcut first-keystroke="f10" />
   </action>
+  <action id="XDebugger.CopyWatch" />
+  <action id="openAssertEqualsDiff" />
 </keymap>
