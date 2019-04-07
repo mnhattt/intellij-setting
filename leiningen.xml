@@ -1,0 +1,5 @@
+<application>
+  <component name="LeiningenRunnerSettings">
+    <option name="gpgPath" value="$USER_HOME$/.lein/profiles.clj" />
+  </component>
+</application>

@@ -1,0 +1,9 @@
+<keymap version="1" name="Default for GNOME copy" parent="Default for GNOME">
+  <action id="ToggleBookmark" />
+  <action id="ToggleFullScreen">
+    <keyboard-shortcut first-keystroke="f11" />
+  </action>
+  <action id="ViewToolButtons">
+    <keyboard-shortcut first-keystroke="f10" />
+  </action>
+</keymap>
