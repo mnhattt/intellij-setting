@@ -5,18 +5,48 @@
   <action id=":cursive.actions.paredit/backward-up">
     <keyboard-shortcut first-keystroke="shift ctrl left" />
   </action>
+  <action id=":cursive.actions.paredit/barf-backwards">
+    <keyboard-shortcut first-keystroke="shift ctrl period" />
+  </action>
+  <action id=":cursive.actions.paredit/barf-forwards">
+    <keyboard-shortcut first-keystroke="ctrl alt comma" />
+  </action>
   <action id=":cursive.actions.paredit/forward-down">
     <keyboard-shortcut first-keystroke="shift ctrl right" />
   </action>
   <action id=":cursive.actions.paredit/forward-up">
     <keyboard-shortcut first-keystroke="ctrl alt right" />
   </action>
+  <action id=":cursive.actions.paredit/slurp-backwards">
+    <keyboard-shortcut first-keystroke="shift ctrl comma" />
+  </action>
+  <action id=":cursive.actions.paredit/slurp-forwards">
+    <keyboard-shortcut first-keystroke="ctrl alt period" />
+  </action>
+  <action id=":cursive.actions.paredit/thread-form">
+    <keyboard-shortcut first-keystroke="shift alt period" />
+  </action>
+  <action id=":cursive.actions.paredit/unthread-form">
+    <keyboard-shortcut first-keystroke="shift alt comma" />
+  </action>
+  <action id="CollapseBlock" />
   <action id="EditorNextWordWithSelection" />
   <action id="EditorPreviousWordWithSelection" />
+  <action id="GoToTab1">
+    <keyboard-shortcut first-keystroke="shift ctrl 1" />
+  </action>
+  <action id="GotoCustomRegion" />
   <action id="IncrementWindowWidth" />
+  <action id="MoveEditorToOppositeTabGroup">
+    <keyboard-shortcut first-keystroke="ctrl alt page_down" />
+  </action>
+  <action id="MoveTabRight">
+    <keyboard-shortcut first-keystroke="ctrl alt page_up" />
+  </action>
   <action id="ResizeToolWindowLeft" />
   <action id="ResizeToolWindowRight" />
   <action id="ToggleBookmark" />
+  <action id="ToggleBookmark1" />
   <action id="ToggleFullScreen">
     <keyboard-shortcut first-keystroke="f11" />
   </action>
