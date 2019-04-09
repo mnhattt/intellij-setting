@@ -60,6 +60,7 @@
     <keyboard-shortcut first-keystroke="ctrl y" />
     <keyboard-shortcut first-keystroke="alt x" />
   </action>
+  <action id="EditorDuplicate" />
   <action id="EditorDuplicateLines">
     <keyboard-shortcut first-keystroke="shift ctrl d" />
   </action>
@@ -67,6 +68,7 @@
   <action id="EditorPreviousWordWithSelection" />
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="shift alt right" />
+    <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
   <action id="EditorUnSelectWord">
     <keyboard-shortcut first-keystroke="shift alt left" />
