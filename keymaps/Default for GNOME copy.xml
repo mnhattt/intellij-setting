@@ -82,6 +82,7 @@
   <action id="PreviousEditorTab" />
   <action id="ResizeToolWindowLeft" />
   <action id="ResizeToolWindowRight" />
+  <action id="Resume" />
   <action id="RunDashboard.CopyConfiguration" />
   <action id="SendEOF" />
   <action id="ToggleBookmark" />
@@ -91,6 +92,7 @@
   </action>
   <action id="ViewToolButtons">
     <keyboard-shortcut first-keystroke="f10" />
+    <keyboard-shortcut first-keystroke="f9" />
   </action>
   <action id="XDebugger.CopyWatch" />
   <action id="openAssertEqualsDiff" />
