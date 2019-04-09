@@ -17,12 +17,20 @@
   <action id=":cursive.actions.paredit/forward-up">
     <keyboard-shortcut first-keystroke="ctrl alt right" />
   </action>
+  <action id=":cursive.actions.paredit/join" />
   <action id=":cursive.actions.paredit/slurp-backwards">
     <keyboard-shortcut first-keystroke="shift ctrl comma" />
   </action>
   <action id=":cursive.actions.paredit/slurp-forwards">
     <keyboard-shortcut first-keystroke="ctrl alt period" />
   </action>
+  <action id=":cursive.actions.paredit/splice-killing-backwards">
+    <keyboard-shortcut first-keystroke="shift ctrl s" />
+  </action>
+  <action id=":cursive.actions.paredit/splice-killing-forwards">
+    <keyboard-shortcut first-keystroke="shift alt s" />
+  </action>
+  <action id=":cursive.actions.paredit/split" />
   <action id=":cursive.actions.paredit/thread-form">
     <keyboard-shortcut first-keystroke="shift alt period" />
   </action>
