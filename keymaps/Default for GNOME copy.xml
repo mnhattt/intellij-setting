@@ -1,4 +1,7 @@
 <keymap version="1" name="Default for GNOME copy" parent="Default for GNOME">
+  <action id="$Paste">
+    <keyboard-shortcut first-keystroke="ctrl v" />
+  </action>
   <action id=":cursive.actions.paredit/backward-down">
     <keyboard-shortcut first-keystroke="ctrl alt left" />
   </action>
@@ -41,6 +44,9 @@
     <mouse-shortcut keystroke="button4" />
   </action>
   <action id="ChangesView.Diff" />
+  <action id="Clojure.ClojureFile">
+    <keyboard-shortcut first-keystroke="shift insert" />
+  </action>
   <action id="CloseAllEditors">
     <keyboard-shortcut first-keystroke="shift ctrl w" />
   </action>
