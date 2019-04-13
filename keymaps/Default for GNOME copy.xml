@@ -2,6 +2,11 @@
   <action id="$Paste">
     <keyboard-shortcut first-keystroke="ctrl v" />
   </action>
+  <action id="$Redo">
+    <keyboard-shortcut first-keystroke="shift ctrl z" />
+    <keyboard-shortcut first-keystroke="shift alt back_space" />
+    <keyboard-shortcut first-keystroke="ctrl y" />
+  </action>
   <action id=":cursive.actions.paredit/backward-down">
     <keyboard-shortcut first-keystroke="ctrl alt left" />
   </action>
@@ -62,8 +67,10 @@
   <action id="Diff.ApplyRightSide" />
   <action id="Diff.ShowDiff" />
   <action id="Diff.ShowSettingsPopup" />
-  <action id="EditorDeleteLine">
+  <action id="Editor Redo">
     <keyboard-shortcut first-keystroke="ctrl y" />
+  </action>
+  <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="alt x" />
   </action>
   <action id="EditorDuplicate" />
