@@ -26,6 +26,12 @@
   <action id="Forward">
     <mouse-shortcut keystroke="button5" />
   </action>
+  <action id="MoveEditorToOppositeTabGroup">
+    <keyboard-shortcut first-keystroke="ctrl alt page_down" />
+  </action>
+  <action id="MoveTabRight">
+    <keyboard-shortcut first-keystroke="ctrl alt page_up" />
+  </action>
   <action id="NextEditorTab" />
   <action id="PreviousEditorTab" />
   <action id="ToggleBookmark" />
