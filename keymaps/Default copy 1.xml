@@ -11,6 +11,9 @@
   <action id=":cursive.actions.paredit/forward-up">
     <keyboard-shortcut first-keystroke="shift alt right" />
   </action>
+  <action id=":cursive.repl.actions/run-last-sexp">
+    <keyboard-shortcut first-keystroke="shift ctrl p" />
+  </action>
   <action id="Back">
     <mouse-shortcut keystroke="button4" />
   </action>
@@ -19,6 +22,7 @@
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="alt x" />
   </action>
+  <action id="ExpressionTypeInfo" />
   <action id="Forward">
     <mouse-shortcut keystroke="button5" />
   </action>
