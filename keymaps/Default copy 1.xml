@@ -24,4 +24,8 @@
   </action>
   <action id="NextEditorTab" />
   <action id="PreviousEditorTab" />
+  <action id="ToggleBookmark" />
+  <action id="ToggleFullScreen">
+    <keyboard-shortcut first-keystroke="f11" />
+  </action>
 </keymap>
