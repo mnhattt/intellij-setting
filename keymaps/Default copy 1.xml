@@ -24,6 +24,9 @@
   <action id="Back">
     <mouse-shortcut keystroke="button4" />
   </action>
+  <action id="Clojure.ClojureFile">
+    <keyboard-shortcut first-keystroke="ctrl alt n" />
+  </action>
   <action id="Diff.ApplyLeftSide" />
   <action id="Diff.ApplyRightSide" />
   <action id="Editor Redo">
@@ -36,6 +39,7 @@
   <action id="Forward">
     <mouse-shortcut keystroke="button5" />
   </action>
+  <action id="Inline" />
   <action id="MoveEditorToOppositeTabGroup">
     <keyboard-shortcut first-keystroke="ctrl alt page_down" />
   </action>
