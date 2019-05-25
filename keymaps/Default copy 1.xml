@@ -14,6 +14,9 @@
   <action id=":cursive.actions.paredit/barf-forwards">
     <keyboard-shortcut first-keystroke="ctrl alt comma" />
   </action>
+  <action id=":cursive.actions.paredit/cycle-collection-type">
+    <keyboard-shortcut first-keystroke="ctrl alt open_bracket" />
+  </action>
   <action id=":cursive.actions.paredit/forward-down">
     <keyboard-shortcut first-keystroke="ctrl alt right" />
   </action>
@@ -81,6 +84,7 @@
   <action id="NextEditorTab" />
   <action id="ParameterInfo" />
   <action id="PreviousEditorTab" />
+  <action id="PreviousProjectWindow" />
   <action id="RecentFiles" />
   <action id="TodoViewGroupByShowPackages" />
   <action id="ToggleBookmark" />
