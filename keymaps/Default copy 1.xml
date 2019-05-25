@@ -60,21 +60,29 @@
   <action id="Back">
     <mouse-shortcut keystroke="button4" />
   </action>
+  <action id="ChangesView.Diff" />
   <action id="ChangesView.GroupBy.Directory" />
   <action id="Clojure.ClojureFile">
     <keyboard-shortcut first-keystroke="ctrl alt n" />
   </action>
   <action id="CollapseBlock" />
+  <action id="CompareTwoFiles" />
   <action id="CopyElement" />
   <action id="Diff.ApplyLeftSide" />
   <action id="Diff.ApplyRightSide" />
+  <action id="Diff.ShowDiff" />
   <action id="Editor Redo">
     <keyboard-shortcut first-keystroke="ctrl y" />
   </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="alt x" />
   </action>
+  <action id="EditorDuplicate" />
+  <action id="EditorDuplicateLines">
+    <keyboard-shortcut first-keystroke="ctrl d" />
+  </action>
   <action id="ExpressionTypeInfo" />
+  <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.TogglePathShowing" />
   <action id="Forward">
     <mouse-shortcut keystroke="button5" />
@@ -95,6 +103,8 @@
   <action id="PreviousEditorTab" />
   <action id="PreviousProjectWindow" />
   <action id="RecentFiles" />
+  <action id="RunDashboard.CopyConfiguration" />
+  <action id="SendEOF" />
   <action id="TodoViewGroupByShowPackages" />
   <action id="ToggleBookmark" />
   <action id="ToggleFullScreen">
@@ -106,4 +116,6 @@
   <action id="ViewToolButtons">
     <keyboard-shortcut first-keystroke="f10" />
   </action>
+  <action id="XDebugger.CopyWatch" />
+  <action id="openAssertEqualsDiff" />
 </keymap>
