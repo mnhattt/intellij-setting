@@ -19,6 +19,7 @@
   </action>
   <action id=":cursive.repl.actions/run-top-sexp">
     <keyboard-shortcut first-keystroke="shift ctrl p" />
+    <keyboard-shortcut first-keystroke="ctrl e" />
   </action>
   <action id="ActivateFavoritesToolWindow" />
   <action id="ActivateREPLToolWindow">
@@ -30,6 +31,7 @@
   <action id="Back">
     <mouse-shortcut keystroke="button4" />
   </action>
+  <action id="ChangesView.GroupBy.Directory" />
   <action id="Clojure.ClojureFile">
     <keyboard-shortcut first-keystroke="ctrl alt n" />
   </action>
@@ -42,6 +44,7 @@
     <keyboard-shortcut first-keystroke="alt x" />
   </action>
   <action id="ExpressionTypeInfo" />
+  <action id="FileChooser.TogglePathShowing" />
   <action id="Forward">
     <mouse-shortcut keystroke="button5" />
   </action>
@@ -53,10 +56,16 @@
     <keyboard-shortcut first-keystroke="ctrl alt page_up" />
   </action>
   <action id="NextEditorTab" />
+  <action id="ParameterInfo" />
   <action id="PreviousEditorTab" />
+  <action id="RecentFiles" />
+  <action id="TodoViewGroupByShowPackages" />
   <action id="ToggleBookmark" />
   <action id="ToggleFullScreen">
     <keyboard-shortcut first-keystroke="f11" />
+  </action>
+  <action id="Vcs.ShowMessageHistory">
+    <keyboard-shortcut first-keystroke="ctrl m" />
   </action>
   <action id="ViewToolButtons">
     <keyboard-shortcut first-keystroke="f10" />
