@@ -8,18 +8,35 @@
   <action id=":cursive.actions.paredit/backward-up">
     <keyboard-shortcut first-keystroke="ctrl alt left" />
   </action>
+  <action id=":cursive.actions.paredit/barf-backwards">
+    <keyboard-shortcut first-keystroke="shift ctrl period" />
+  </action>
+  <action id=":cursive.actions.paredit/barf-forwards">
+    <keyboard-shortcut first-keystroke="ctrl alt comma" />
+  </action>
   <action id=":cursive.actions.paredit/forward-down">
     <keyboard-shortcut first-keystroke="ctrl alt right" />
   </action>
   <action id=":cursive.actions.paredit/forward-up">
     <keyboard-shortcut first-keystroke="shift alt right" />
   </action>
+  <action id=":cursive.actions.paredit/slurp-backwards">
+    <keyboard-shortcut first-keystroke="shift ctrl comma" />
+  </action>
+  <action id=":cursive.actions.paredit/slurp-forwards">
+    <keyboard-shortcut first-keystroke="ctrl alt period" />
+  </action>
+  <action id=":cursive.actions.paredit/thread-form" />
+  <action id=":cursive.actions.paredit/unthread-form" />
   <action id=":cursive.repl.actions/run-last-sexp">
     <keyboard-shortcut first-keystroke="shift alt p" />
   </action>
   <action id=":cursive.repl.actions/run-top-sexp">
     <keyboard-shortcut first-keystroke="shift ctrl p" />
     <keyboard-shortcut first-keystroke="ctrl e" />
+  </action>
+  <action id=":cursive.testing.actions/rerun-last-test">
+    <keyboard-shortcut first-keystroke="ctrl alt r" />
   </action>
   <action id="ActivateFavoritesToolWindow" />
   <action id="ActivateREPLToolWindow">
@@ -35,6 +52,8 @@
   <action id="Clojure.ClojureFile">
     <keyboard-shortcut first-keystroke="ctrl alt n" />
   </action>
+  <action id="CollapseBlock" />
+  <action id="CopyElement" />
   <action id="Diff.ApplyLeftSide" />
   <action id="Diff.ApplyRightSide" />
   <action id="Editor Redo">
@@ -48,7 +67,11 @@
   <action id="Forward">
     <mouse-shortcut keystroke="button5" />
   </action>
+  <action id="GotoCustomRegion" />
   <action id="Inline" />
+  <action id="Leiningen.RefreshProjects">
+    <keyboard-shortcut first-keystroke="f5" />
+  </action>
   <action id="MoveEditorToOppositeTabGroup">
     <keyboard-shortcut first-keystroke="ctrl alt page_down" />
   </action>
