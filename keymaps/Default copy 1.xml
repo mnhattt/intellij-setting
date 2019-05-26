@@ -103,6 +103,7 @@
   <action id="PreviousEditorTab" />
   <action id="PreviousProjectWindow" />
   <action id="RecentFiles" />
+  <action id="Resume" />
   <action id="RunDashboard.CopyConfiguration" />
   <action id="SendEOF" />
   <action id="TodoViewGroupByShowPackages" />
@@ -112,6 +113,9 @@
   </action>
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="ctrl m" />
+  </action>
+  <action id="ViewToolBar">
+    <keyboard-shortcut first-keystroke="f9" />
   </action>
   <action id="ViewToolButtons">
     <keyboard-shortcut first-keystroke="f10" />
