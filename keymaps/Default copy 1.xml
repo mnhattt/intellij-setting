@@ -38,10 +38,9 @@
   <action id=":cursive.actions.paredit/thread-form" />
   <action id=":cursive.actions.paredit/unthread-form" />
   <action id=":cursive.repl.actions/run-last-sexp">
-    <keyboard-shortcut first-keystroke="shift alt p" />
+    <keyboard-shortcut first-keystroke="shift ctrl e" />
   </action>
   <action id=":cursive.repl.actions/run-top-sexp">
-    <keyboard-shortcut first-keystroke="shift ctrl p" />
     <keyboard-shortcut first-keystroke="ctrl e" />
   </action>
   <action id=":cursive.testing.actions/rerun-last-test">
@@ -112,6 +111,7 @@
   <action id="PreviousEditorTab" />
   <action id="PreviousProjectWindow" />
   <action id="RecentFiles" />
+  <action id="RecentLocations" />
   <action id="Resume" />
   <action id="RunDashboard.CopyConfiguration" />
   <action id="SendEOF" />
