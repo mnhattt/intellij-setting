@@ -47,9 +47,9 @@
     <keyboard-shortcut first-keystroke="ctrl alt r" />
   </action>
   <action id="AceAction">
-    <keyboard-shortcut first-keystroke="shift ctrl semicolon" />
+    <keyboard-shortcut first-keystroke="ctrl alt semicolon" />
   </action>
-  <action id="AceLineAction" />
+  <action id="AceTargetAction" />
   <action id="AceWordAction">
     <keyboard-shortcut first-keystroke="ctrl semicolon" />
   </action>
@@ -103,6 +103,7 @@
   <action id="GotoBookmark1" />
   <action id="GotoBookmark2" />
   <action id="GotoCustomRegion" />
+  <action id="Images.Editor.ToggleGrid" />
   <action id="Inline" />
   <action id="Leiningen.RefreshProjects">
     <keyboard-shortcut first-keystroke="f5" />
@@ -141,5 +142,14 @@
     <keyboard-shortcut first-keystroke="ctrl 1" />
   </action>
   <action id="XDebugger.CopyWatch" />
+  <action id="emacsIDEAs.AceJump">
+    <keyboard-shortcut first-keystroke="shift ctrl semicolon" />
+  </action>
+  <action id="emacsIDEAs.AceJumpWord">
+    <keyboard-shortcut first-keystroke="ctrl semicolon" />
+  </action>
+  <action id="emacsIDEAs.JustOneSpace">
+    <keyboard-shortcut first-keystroke="ctrl quote" />
+  </action>
   <action id="openAssertEqualsDiff" />
 </keymap>
