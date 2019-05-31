@@ -49,7 +49,8 @@
   <action id="AceAction">
     <keyboard-shortcut first-keystroke="shift ctrl semicolon" />
   </action>
-  <action id="AceLineAction">
+  <action id="AceLineAction" />
+  <action id="AceWordAction">
     <keyboard-shortcut first-keystroke="ctrl semicolon" />
   </action>
   <action id="ActivateDocumentationToolWindow">
