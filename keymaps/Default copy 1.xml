@@ -46,6 +46,12 @@
   <action id=":cursive.testing.actions/rerun-last-test">
     <keyboard-shortcut first-keystroke="ctrl alt r" />
   </action>
+  <action id="AceAction">
+    <keyboard-shortcut first-keystroke="shift ctrl semicolon" />
+  </action>
+  <action id="AceLineAction">
+    <keyboard-shortcut first-keystroke="ctrl semicolon" />
+  </action>
   <action id="ActivateDocumentationToolWindow">
     <keyboard-shortcut first-keystroke="alt 3" />
   </action>
@@ -115,6 +121,7 @@
   <action id="Resume" />
   <action id="RunDashboard.CopyConfiguration" />
   <action id="SendEOF" />
+  <action id="ShowRecentTests" />
   <action id="TodoViewGroupByShowPackages" />
   <action id="ToggleBookmark" />
   <action id="ToggleFullScreen">
