@@ -49,9 +49,12 @@
   <action id="AceAction">
     <keyboard-shortcut first-keystroke="ctrl alt semicolon" />
   </action>
+  <action id="AceLineAction">
+    <keyboard-shortcut first-keystroke="ctrl semicolon" />
+  </action>
   <action id="AceTargetAction" />
   <action id="AceWordAction">
-    <keyboard-shortcut first-keystroke="ctrl semicolon" />
+    <keyboard-shortcut first-keystroke="ctrl u" />
   </action>
   <action id="ActivateDocumentationToolWindow">
     <keyboard-shortcut first-keystroke="alt 3" />
@@ -103,6 +106,7 @@
   <action id="GotoBookmark1" />
   <action id="GotoBookmark2" />
   <action id="GotoCustomRegion" />
+  <action id="GotoSuperMethod" />
   <action id="Images.Editor.ToggleGrid" />
   <action id="Inline" />
   <action id="Leiningen.RefreshProjects">
