@@ -35,6 +35,7 @@
   <action id=":cursive.actions.paredit/slurp-forwards">
     <keyboard-shortcut first-keystroke="ctrl alt period" />
   </action>
+  <action id=":cursive.actions.paredit/split" />
   <action id=":cursive.actions.paredit/thread-form" />
   <action id=":cursive.actions.paredit/unthread-form" />
   <action id=":cursive.repl.actions/run-last-sexp">
@@ -42,6 +43,13 @@
   </action>
   <action id=":cursive.repl.actions/run-top-sexp">
     <keyboard-shortcut first-keystroke="ctrl e" />
+  </action>
+  <action id=":cursive.repl.actions/switch-namespace">
+    <keyboard-shortcut first-keystroke="shift alt n" />
+  </action>
+  <action id=":cursive.repl.actions/sync-files">
+    <keyboard-shortcut first-keystroke="shift alt m" />
+    <keyboard-shortcut first-keystroke="shift alt s" />
   </action>
   <action id=":cursive.testing.actions/rerun-last-test">
     <keyboard-shortcut first-keystroke="ctrl alt r" />
@@ -108,6 +116,9 @@
   <action id="GotoBookmark1" />
   <action id="GotoBookmark2" />
   <action id="GotoCustomRegion" />
+  <action id="GotoNamespace">
+    <keyboard-shortcut first-keystroke="shift alt r" />
+  </action>
   <action id="GotoSuperMethod" />
   <action id="Images.Editor.ToggleGrid" />
   <action id="IncrementWindowWidth" />
@@ -127,6 +138,7 @@
   <action id="PreviousProjectWindow" />
   <action id="RecentFiles" />
   <action id="RecentLocations" />
+  <action id="RerunTests" />
   <action id="ResizeToolWindowLeft" />
   <action id="ResizeToolWindowRight" />
   <action id="Resume" />
