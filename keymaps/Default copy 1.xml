@@ -23,11 +23,8 @@
   <action id=":cursive.actions.paredit/forward-up">
     <keyboard-shortcut first-keystroke="ctrl alt right" />
   </action>
-  <action id=":cursive.actions.paredit/kill">
-    <keyboard-shortcut first-keystroke="ctrl alt d" />
-  </action>
   <action id=":cursive.actions.paredit/kill-sexp">
-    <keyboard-shortcut first-keystroke="alt d" />
+    <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
   <action id=":cursive.actions.paredit/slurp-backwards">
     <keyboard-shortcut first-keystroke="shift ctrl comma" />
@@ -35,24 +32,26 @@
   <action id=":cursive.actions.paredit/slurp-forwards">
     <keyboard-shortcut first-keystroke="ctrl alt period" />
   </action>
+  <action id=":cursive.actions.paredit/splice-killing-backwards">
+    <keyboard-shortcut first-keystroke="ctrl alt up" />
+  </action>
   <action id=":cursive.actions.paredit/split" />
   <action id=":cursive.actions.paredit/thread-form" />
   <action id=":cursive.actions.paredit/unthread-form" />
+  <action id=":cursive.repl.actions/interrupt">
+    <keyboard-shortcut first-keystroke="shift ctrl delete" />
+  </action>
   <action id=":cursive.repl.actions/run-last-sexp">
-    <keyboard-shortcut first-keystroke="shift ctrl e" />
+    <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
   <action id=":cursive.repl.actions/run-top-sexp">
     <keyboard-shortcut first-keystroke="ctrl e" />
   </action>
   <action id=":cursive.repl.actions/switch-namespace">
-    <keyboard-shortcut first-keystroke="shift alt n" />
+    <keyboard-shortcut first-keystroke="alt v" second-keystroke="n" />
   </action>
   <action id=":cursive.repl.actions/sync-files">
-    <keyboard-shortcut first-keystroke="shift alt m" />
-    <keyboard-shortcut first-keystroke="shift alt s" />
-  </action>
-  <action id=":cursive.testing.actions/rerun-last-test">
-    <keyboard-shortcut first-keystroke="ctrl alt r" />
+    <keyboard-shortcut first-keystroke="alt v" second-keystroke="l" />
   </action>
   <action id="AceAction">
     <keyboard-shortcut first-keystroke="ctrl alt semicolon" />
@@ -88,6 +87,7 @@
   <action id="Diff.ApplyLeftSide" />
   <action id="Diff.ApplyRightSide" />
   <action id="Diff.ShowDiff" />
+  <action id="Diff.ShowSettingsPopup" />
   <action id="DockPinnedMode">
     <keyboard-shortcut first-keystroke="ctrl 2" />
   </action>
@@ -101,7 +101,7 @@
   </action>
   <action id="EditorDuplicate" />
   <action id="EditorDuplicateLines">
-    <keyboard-shortcut first-keystroke="ctrl d" />
+    <keyboard-shortcut first-keystroke="shift ctrl d" />
   </action>
   <action id="EditorNextWordWithSelection" />
   <action id="EditorPreviousWordWithSelection" />
@@ -135,9 +135,11 @@
   <action id="NextEditorTab" />
   <action id="ParameterInfo" />
   <action id="PreviousEditorTab" />
+  <action id="PreviousOccurence" />
   <action id="PreviousProjectWindow" />
   <action id="RecentFiles" />
   <action id="RecentLocations" />
+  <action id="Replace" />
   <action id="RerunTests" />
   <action id="ResizeToolWindowLeft" />
   <action id="ResizeToolWindowRight" />
@@ -152,6 +154,7 @@
   <action id="ToggleFullScreen">
     <keyboard-shortcut first-keystroke="f11" />
   </action>
+  <action id="Unwrap" />
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="ctrl m" />
   </action>
