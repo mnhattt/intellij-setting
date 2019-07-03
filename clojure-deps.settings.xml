@@ -8,7 +8,7 @@
       </list>
     </option>
     <option name="configPath" value="$USER_HOME$/.clojure" />
-    <option name="defaultAliases" value="rebel" />
+    <option name="defaultAliases" value="" />
     <option name="downloadedClasspath">
       <list>
         <option value="C:\Users\Legion\.m2\repository\org\clojure\tools.deps.alpha\0.7.516\tools.deps.alpha-0.7.516.jar" />
