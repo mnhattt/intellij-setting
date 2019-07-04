@@ -28,6 +28,9 @@
   <action id=":cursive.actions.paredit/forward-up">
     <keyboard-shortcut first-keystroke="ctrl alt right" />
   </action>
+  <action id=":cursive.actions.paredit/join">
+    <keyboard-shortcut first-keystroke="shift ctrl s" second-keystroke="d" />
+  </action>
   <action id=":cursive.actions.paredit/kill-sexp">
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
@@ -40,7 +43,9 @@
   <action id=":cursive.actions.paredit/splice-killing-backwards">
     <keyboard-shortcut first-keystroke="ctrl alt up" />
   </action>
-  <action id=":cursive.actions.paredit/split" />
+  <action id=":cursive.actions.paredit/split">
+    <keyboard-shortcut first-keystroke="shift ctrl s" second-keystroke="s" />
+  </action>
   <action id=":cursive.actions.paredit/thread-form" />
   <action id=":cursive.actions.paredit/unthread-form" />
   <action id=":cursive.repl.actions/interrupt">
