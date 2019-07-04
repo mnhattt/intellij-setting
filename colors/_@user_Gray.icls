@@ -4,7 +4,7 @@
     <property name="created">2019-03-28T11:41:56</property>
     <property name="ide">Idea</property>
     <property name="ideVersion">2019.1.0.0</property>
-    <property name="modified">2019-07-04T19:39:47</property>
+    <property name="modified">2019-07-04T21:09:29</property>
     <property name="originalScheme">Gray</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.05" />
@@ -52,7 +52,7 @@
     </option>
     <option name="Clojure Keyword">
       <value>
-        <option name="FOREGROUND" value="e54d1d" />
+        <option name="FOREGROUND" value="de6227" />
       </value>
     </option>
     <option name="Clojure Numbers">
