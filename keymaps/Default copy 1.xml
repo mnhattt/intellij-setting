@@ -87,6 +87,10 @@
   <action id="Clojure.ClojureFile">
     <keyboard-shortcut first-keystroke="ctrl alt n" />
   </action>
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="ctrl f4" />
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
   <action id="CollapseBlock" />
   <action id="CompareTwoFiles" />
   <action id="CopyElement" />
@@ -111,6 +115,12 @@
   </action>
   <action id="EditorNextWordWithSelection" />
   <action id="EditorPreviousWordWithSelection" />
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="ctrl q" />
+  </action>
+  <action id="EditorUnSelectWord">
+    <keyboard-shortcut first-keystroke="shift ctrl q" />
+  </action>
   <action id="ExpressionTypeInfo" />
   <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.GotoHome" />
@@ -143,6 +153,9 @@
   <action id="PreviousEditorTab" />
   <action id="PreviousOccurence" />
   <action id="PreviousProjectWindow" />
+  <action id="QuickJavaDoc">
+    <mouse-shortcut keystroke="alt button2" />
+  </action>
   <action id="RecentFiles" />
   <action id="RecentLocations" />
   <action id="Replace" />
