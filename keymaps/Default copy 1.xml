@@ -14,6 +14,11 @@
   <action id=":cursive.actions.paredit/barf-forwards">
     <keyboard-shortcut first-keystroke="ctrl alt comma" />
   </action>
+  <action id=":cursive.actions.paredit/close-curly-and-newline" />
+  <action id=":cursive.actions.paredit/close-paren-and-newline">
+    <keyboard-shortcut first-keystroke="ctrl semicolon" />
+  </action>
+  <action id=":cursive.actions.paredit/close-square-and-newline" />
   <action id=":cursive.actions.paredit/cycle-collection-type">
     <keyboard-shortcut first-keystroke="ctrl alt open_bracket" />
   </action>
@@ -75,9 +80,6 @@
   <action id="ActivateFavoritesToolWindow" />
   <action id="ActivateREPLToolWindow">
     <keyboard-shortcut first-keystroke="alt 2" />
-  </action>
-  <action id="AddDependencyToDepsEdn">
-    <keyboard-shortcut first-keystroke="ctrl comma" />
   </action>
   <action id="Back">
     <mouse-shortcut keystroke="button4" />
