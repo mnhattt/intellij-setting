@@ -72,6 +72,9 @@
   <action id="AceAction">
     <keyboard-shortcut first-keystroke="ctrl alt semicolon" />
   </action>
+  <action id="AceDeclarationAction">
+    <keyboard-shortcut first-keystroke="alt q" />
+  </action>
   <action id="AceLineAction">
     <keyboard-shortcut first-keystroke="ctrl semicolon" />
   </action>
@@ -91,6 +94,7 @@
   </action>
   <action id="ChangesView.Diff" />
   <action id="ChangesView.GroupBy.Directory" />
+  <action id="CheckinProject" />
   <action id="Clojure.ClojureFile">
     <keyboard-shortcut first-keystroke="ctrl alt n" />
   </action>
@@ -113,8 +117,15 @@
   <action id="Editor Redo">
     <keyboard-shortcut first-keystroke="ctrl y" />
   </action>
+  <action id="EditorContextInfo" />
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="alt x" />
+  </action>
+  <action id="EditorDeleteToLineEnd">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="l" />
+  </action>
+  <action id="EditorDeleteToLineStart">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="j" />
   </action>
   <action id="EditorDuplicate" />
   <action id="EditorDuplicateLines">
