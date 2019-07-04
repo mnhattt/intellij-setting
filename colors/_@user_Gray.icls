@@ -1,11 +1,21 @@
 <scheme name="_@user_Gray" version="142" parent_scheme="Default">
+  <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
     <property name="created">2019-03-28T11:41:56</property>
     <property name="ide">Idea</property>
     <property name="ideVersion">2019.1.0.0</property>
-    <property name="modified">2019-07-04T12:57:28</property>
+    <property name="modified">2019-07-04T19:39:47</property>
     <property name="originalScheme">Gray</property>
   </metaInfo>
+  <option name="LINE_SPACING" value="1.05" />
+  <font>
+    <option name="EDITOR_FONT_NAME" value="Inconsolata" />
+    <option name="EDITOR_FONT_SIZE" value="16" />
+  </font>
+  <font>
+    <option name="EDITOR_FONT_NAME" value="Monaco" />
+    <option name="EDITOR_FONT_SIZE" value="16" />
+  </font>
   <colors>
     <option name="CARET_COLOR" value="5c5c5c" />
     <option name="CARET_ROW_COLOR" value="f2f3f5" />
@@ -43,8 +53,10 @@
     <option name="Clojure Keyword">
       <value>
         <option name="FOREGROUND" value="e54d1d" />
-        <option name="FONT_TYPE" value="1" />
       </value>
+    </option>
+    <option name="Clojure Numbers">
+      <value />
     </option>
     <option name="DEFAULT_ATTRIBUTE">
       <value>
@@ -173,9 +185,15 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
+    <option name="Head symbol">
+      <value>
+        <option name="FOREGROUND" value="de6227" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="Head symbol from clojure.core">
       <value>
-        <option name="FONT_TYPE" value="1" />
+        <option name="FOREGROUND" value="569cd6" />
       </value>
     </option>
     <option name="INJECTED_LANGUAGE_FRAGMENT">
@@ -281,6 +299,47 @@
       <value>
         <option name="FOREGROUND" value="f83f55" />
       </value>
+    </option>
+    <option name="Rainbow Parens Level 1 (outermost)">
+      <value>
+        <option name="FOREGROUND" value="6a6a6a" />
+      </value>
+    </option>
+    <option name="Rainbow Parens Level 2">
+      <value>
+        <option name="FOREGROUND" value="e16d6d" />
+      </value>
+    </option>
+    <option name="Rainbow Parens Level 3">
+      <value>
+        <option name="FOREGROUND" value="3fa455" />
+      </value>
+    </option>
+    <option name="Rainbow Parens Level 4">
+      <value>
+        <option name="FOREGROUND" value="ce6600" />
+      </value>
+    </option>
+    <option name="Rainbow Parens Level 5">
+      <value>
+        <option name="FOREGROUND" value="98e6" />
+      </value>
+    </option>
+    <option name="Rainbow Parens Level 6">
+      <value>
+        <option name="FOREGROUND" value="cccccc" />
+      </value>
+    </option>
+    <option name="Rainbow Parens Level 7">
+      <value>
+        <option name="FOREGROUND" value="dbbf1d" />
+      </value>
+    </option>
+    <option name="Rainbow Parens Level 8">
+      <value />
+    </option>
+    <option name="Rainbow Parens Level 9">
+      <value />
     </option>
     <option name="STATIC_FINAL_FIELD_ATTRIBUTES">
       <value>
