@@ -31,6 +31,10 @@
   <action id=":cursive.actions.paredit/join">
     <keyboard-shortcut first-keystroke="shift ctrl s" second-keystroke="d" />
   </action>
+  <action id=":cursive.actions.paredit/kill">
+    <keyboard-shortcut first-keystroke="alt d" />
+    <keyboard-shortcut first-keystroke="alt delete" />
+  </action>
   <action id=":cursive.actions.paredit/kill-sexp">
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
@@ -127,6 +131,7 @@
   <action id="EditorDeleteToLineStart">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="j" />
   </action>
+  <action id="EditorDeleteToWordEnd" />
   <action id="EditorDuplicate" />
   <action id="EditorDuplicateLines">
     <keyboard-shortcut first-keystroke="shift ctrl d" />
@@ -182,6 +187,7 @@
   <action id="ResizeToolWindowRight" />
   <action id="Resume" />
   <action id="RunDashboard.CopyConfiguration" />
+  <action id="SafeDelete" />
   <action id="SendEOF" />
   <action id="ShowRecentTests" />
   <action id="Terminal.MoveToolWindowTabLeft" />
