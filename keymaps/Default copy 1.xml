@@ -1,4 +1,10 @@
 <keymap version="1" name="Default copy 1" parent="$default">
+  <action id="$Copy">
+    <keyboard-shortcut first-keystroke="ctrl c" />
+  </action>
+  <action id="$Cut">
+    <keyboard-shortcut first-keystroke="ctrl x" />
+  </action>
   <action id="$Redo">
     <keyboard-shortcut first-keystroke="ctrl y" />
   </action>
@@ -94,6 +100,7 @@
   <action id="Back">
     <mouse-shortcut keystroke="button4" />
   </action>
+  <action id="BraceOrQuoteOut" />
   <action id="ChangesView.Diff" />
   <action id="ChangesView.GroupBy.Directory" />
   <action id="CheckinProject" />
@@ -119,6 +126,7 @@
   <action id="Editor Redo">
     <keyboard-shortcut first-keystroke="ctrl y" />
   </action>
+  <action id="EditorChooseLookupItemReplace" />
   <action id="EditorContextInfo" />
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="alt x" />
@@ -134,6 +142,7 @@
   <action id="EditorDuplicateLines">
     <keyboard-shortcut first-keystroke="shift ctrl d" />
   </action>
+  <action id="EditorIndentSelection" />
   <action id="EditorKillToWordEnd">
     <keyboard-shortcut first-keystroke="ctrl delete" />
   </action>
@@ -142,9 +151,14 @@
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="ctrl q" />
   </action>
+  <action id="EditorTab" />
   <action id="EditorUnSelectWord">
     <keyboard-shortcut first-keystroke="shift ctrl q" />
   </action>
+  <action id="EmacsStyleIndent">
+    <keyboard-shortcut first-keystroke="tab" />
+  </action>
+  <action id="ExpandLiveTemplateByTab" />
   <action id="ExpressionTypeInfo" />
   <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.GotoHome" />
@@ -176,6 +190,11 @@
     <keyboard-shortcut first-keystroke="ctrl alt page_up" />
   </action>
   <action id="NextEditorTab" />
+  <action id="NextParameter" />
+  <action id="NextTemplateParameter" />
+  <action id="NextTemplateVariable">
+    <keyboard-shortcut first-keystroke="enter" />
+  </action>
   <action id="ParameterInfo" />
   <action id="PreviousEditorTab" />
   <action id="PreviousOccurence" />
@@ -192,6 +211,8 @@
   <action id="Resume" />
   <action id="RunDashboard.CopyConfiguration" />
   <action id="SafeDelete" />
+  <action id="SearchEverywhere.CompleteCommand" />
+  <action id="SearchEverywhere.NextTab" />
   <action id="SendEOF" />
   <action id="ShowRecentTests" />
   <action id="Terminal.MoveToolWindowTabLeft" />
