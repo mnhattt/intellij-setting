@@ -2,7 +2,7 @@
   <component name="CodeInsightSettings">
     <option name="SHOW_EXTERNAL_ANNOTATIONS_INLINE" value="false" />
     <option name="AUTO_POPUP_PARAMETER_INFO" value="false" />
-    <option name="HIGHLIGHT_BRACES" value="false" />
+    <option name="HIGHLIGHT_SCOPE" value="true" />
     <option name="HIGHLIGHT_IDENTIFIER_UNDER_CARET" value="false" />
     <option name="TAB_EXITS_BRACKETS_AND_QUOTES" value="true" />
   </component>

@@ -4,7 +4,7 @@
     <property name="created">2019-03-28T11:41:56</property>
     <property name="ide">Idea</property>
     <property name="ideVersion">2019.1.0.0</property>
-    <property name="modified">2019-07-04T21:09:29</property>
+    <property name="modified">2019-07-06T23:55:35</property>
     <property name="originalScheme">Gray</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.05" />
@@ -336,7 +336,9 @@
       </value>
     </option>
     <option name="Rainbow Parens Level 8">
-      <value />
+      <value>
+        <option name="FOREGROUND" value="ff8cf0" />
+      </value>
     </option>
     <option name="Rainbow Parens Level 9">
       <value />
