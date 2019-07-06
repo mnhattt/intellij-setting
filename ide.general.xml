@@ -5,7 +5,6 @@
     <option name="processCloseConfirmation" value="TERMINATE" />
     <option name="autoSaveFiles" value="false" />
     <option name="showTipsOnStartup" value="false" />
-    <option name="supportScreenReaders" value="true" />
     <option name="useSafeWrite" value="false" />
   </component>
   <component name="Registry">
