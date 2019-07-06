@@ -131,7 +131,6 @@
   </action>
   <action id="EditorChooseLookupItemReplace" />
   <action id="EditorContextInfo" />
-  <action id="EditorCopy" />
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="alt x" />
   </action>
