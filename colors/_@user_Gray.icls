@@ -4,7 +4,7 @@
     <property name="created">2019-03-28T11:41:56</property>
     <property name="ide">Idea</property>
     <property name="ideVersion">2019.1.0.0</property>
-    <property name="modified">2019-07-07T01:26:07</property>
+    <property name="modified">2019-07-07T18:12:58</property>
     <property name="originalScheme">Gray</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
@@ -194,6 +194,7 @@
     <option name="Head symbol from clojure.core">
       <value>
         <option name="FOREGROUND" value="569cd6" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="INJECTED_LANGUAGE_FRAGMENT">
