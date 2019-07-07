@@ -1,10 +1,8 @@
 <application>
   <component name="CodeInsightSettings">
-    <option name="selectAutopopupSuggestionsByChars" value="true" />
     <option name="SHOW_EXTERNAL_ANNOTATIONS_INLINE" value="false" />
     <option name="SHOW_METHOD_CHAIN_TYPES_INLINE" value="false" />
     <option name="AUTO_POPUP_PARAMETER_INFO" value="false" />
-    <option name="SELECT_AUTOPOPUP_SUGGESTIONS_BY_CHARS" value="true" />
     <option name="JAVADOC_GENERATE_CLOSING_TAG" value="false" />
     <option name="HIGHLIGHT_SCOPE" value="true" />
     <option name="TAB_EXITS_BRACKETS_AND_QUOTES" value="true" />
